@@ -1230,6 +1230,12 @@ call s:HL("cssClassName", s:pink, "", "")
   call s:HL("StartifyBracket", s:aqua, "", "")
   call s:HL("StartifySpecial", s:aqua, "", "")
 
+  " Plugin: color_coded
+  call s:HL("Member", s:navy, "", "italic")
+  call s:HL("Variable", s:aqua, "", "")
+  call s:HL("Namespace", s:green, "", "bold")
+  call s:HL("EnumConstant", s:olive, "", "")
+
   "=====================================================================
   " SYNTAX HIGHLIGHTING CODE BELOW THIS LINE ISN'T TESTED FOR THIS THEME
   "=====================================================================
